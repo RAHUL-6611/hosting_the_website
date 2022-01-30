@@ -95,7 +95,7 @@ a {
   position: absolute;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: calc(690rem);
+  width: calc(330rem);
 }
 
 .carousel__slide-item {

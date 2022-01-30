@@ -1,8 +1,11 @@
-.hold{
+/* .hold{
     display: flex;
     justify-content: center;
 }
 
+@media (max-width : 900px){
+    
+} */
 .text{
     padding: 50px 20px;
     color: white;

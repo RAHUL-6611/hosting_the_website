@@ -6,20 +6,10 @@
     font-family: sans-serif;
 }
 
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-}
-
 .aboutptu-card{
-    display: inline;
-    float: inline-start;
+    display: flex;
     background-color: #d0d2ff;
     padding: 10px; 
-    margin-left: 20px;
     width: 100vh;
     height: auto;
     border-radius: 20px;
@@ -28,11 +18,9 @@ body{
 
 
 .aboutvc-card{
-    display: inline;
-    float: inline-end;
+    display: flex;
     background-color: #f6cffd;
     padding: 10px;
-    margin-right: 20px;
     width: 100vh;
     height: auto;
     border-radius: 20px;
@@ -62,7 +50,7 @@ h2{
     margin-bottom: 10px;
 }
 
-p1{
+p{
     margin: 50px;
     text-align: end;
 }

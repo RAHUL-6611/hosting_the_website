@@ -64,34 +64,7 @@ const _items = [
             image: img2,
         },
     },
-    {
-        player: {
-            title: 'IT',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima",
-            image: img3,
-        },
-    },
-    {
-        player: {
-            title: 'CSE',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
-            image: img2,
-        },
-    },
-    {
-        player: {
-            title: 'MECH',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
-            image: img2,
-        },
-    },
-    {
-        player: {
-            title: 'EEE',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
-            image: img2,
-        },
-    },
+    
     
     
     
@@ -115,7 +88,7 @@ const createItem = (position, idx) => {
     switch (position) {
         case length - 1:
         case length + 1:
-            item.styles = {...item.styles, opacity: 1};
+            item.styles = {...item.styles};
             break;
         case length:
             break;
