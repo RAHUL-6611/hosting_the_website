@@ -1,0 +1,32 @@
+
+
+.text{
+    padding: 50px 20px;
+    color: white;
+}
+
+.card{
+    text-align: center;
+    font-size: 18px;
+    margin: 2px 0px;
+}
+
+.title{
+    font-size: 26px;
+    padding: 10px 0px;
+}
+
+.des{
+    padding: 20px 0px;
+}
+
+button{
+    background: white;
+    padding: 4px 15px;
+    margin: 24px 0px 0px 0px;
+    border-radius: 4px;
+    box-shadow: 0 0 7px white;
+    color: black;
+}
+
+

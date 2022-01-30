@@ -1,0 +1,248 @@
+$slide-count: 11;
+$slide-width: 30rem;
+
+html {
+  box-sizing: border-box;
+  font-size: 13px;
+  @media (max-width: 1500px) {
+    font-size: 11px;
+  }
+  @media (max-width: 1250px) {
+    font-size: 10px;
+  }
+  @media (max-width: 425px) {
+    font-size: 8px;
+  }
+  @media (max-width: 320px) {
+    font-size: 6px;
+  }
+}
+
+body {
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.carousel__wrap {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel__inner {
+    height: 40rem;
+    position: relative;
+    width: calc(#{$slide-width * 3});
+}
+
+.carousel__container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel__slide-list {
+    height: 100%;
+    left: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    width: calc(#{($slide-count + 0.5) * $slide-width * 2});
+}
+
+.carousel__slide-item {
+    display: inline-block;
+    height: $slide-width;
+    margin: 0;
+    padding: 1rem;
+    position: absolute;
+    transition: all 0.8s;
+    width: $slide-width;
+}
+
+.carousel__slide-item-img-link {
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.5s ease;
+        width: 100%;
+    }
+
+    &::after {
+        align-items: center;
+        background: rgba(black, 0.5);
+        color: white;
+        content: 'visit';
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        opacity: 0;
+        position: absolute;
+        transition: all 0.5s ease;
+        width: 100%;
+    }
+
+    &:hover {
+        &::after {
+            opacity: 1;
+        }
+
+        img {
+            transform: scale(1.3);
+        }
+    }
+}
+
+.carousel-slide-item__body {
+    height: 6%;
+    position: absolute;
+
+    h4 {
+        margin: 0.7rem 0 0;
+        position: absolute;
+        bottom: 0.03rem;
+        text-transform: uppercase;
+        background: #8e0606;
+        z-index: 111;
+        width: max-content;
+        padding: 3px 22px;
+        color: white;
+        box-shadow: -1px 4px 14px #302b2b;
+    }
+
+    p {
+        font-size: 1.9rem;
+    line-height: 1.3;
+    bottom: -3.5rem;
+    margin: 0.7rem 0;
+    margin-right: 9px;
+    background: white;
+    padding: 3px 9px;
+    height: max-content;
+    border-left: 3px solid white;
+    }
+}
+
+.carousel__btn {
+    align-items: center;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &--prev {
+        left: -5rem;
+    }
+
+    &--next {
+        right: -5rem;
+    }
+
+    @media (max-width: "625px"){
+        &--prev {
+            left: -3rem;
+        }
+        &--next {
+            right: -3rem;
+        }
+     }
+}
+
+.carousel__btn-arrow {
+    border: solid black;
+    border-right: solid rgb(129, 2, 2);
+    border-width: 0 0.6rem 0.4rem 0;
+    height: 4rem;
+    padding: 3px;
+    width: 4rem;
+    z-index: 10;
+    transform: 0.3s;
+    cursor: pointer;
+
+    &:hover{
+       border-width: 0 0.4rem 0.6rem 0;
+       border-bottom: solid rgb(129, 2, 2);
+       border-right: solid rgb(0, 0, 0);
+    }
+
+    @media (max-width : "800px") {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    &--left {
+        transform: rotate(135deg);
+    }
+
+    &--right {
+        transform: rotate(-45deg);
+    }
+}
+
+.carousel__dots {
+    display: inline-block;
+    left: 50%;
+    margin-top: 2rem;
+    position: absolute;
+    transform: translateX(-50%);
+    width: max-content;
+
+    .dot {
+        background: #ccc;
+        border: 0;
+        border-radius: 10px 0px 10px 0px;
+        cursor: pointer;
+        height: 2rem;
+        margin: 0 0.3rem;
+        outline: none;
+        transform: scale(0.5);
+        width: 2rem;
+
+        &.active {
+            background: rgb(92, 2, 2);
+        }
+
+        &:hover{
+            background: rgb(165, 3, 3);
+        }
+    }
+}

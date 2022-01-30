@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutptu-card{
+    display: inline;
+    float: inline-start;
+    background-color: #eaebff;
+    padding: 10px; 
+    margin-left: 20px;
+    width: 100vh;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.aboutvc-card{
+    display: inline;
+    float: inline-end;
+    background-color: #fceaff;
+    padding: 10px;
+    margin-right: 20px;
+    width: 100vh;
+    height: auto;
+    border-radius: 20px;
+}
+
+h1{
+    display:inline;
+    float:left;
+}
+h2{
+    display:inline;
+    padding-inline-start: 10px;
+}
+
+.ptuimg{
+    float:left;
+    margin-top: 10px;
+    padding-inline-end: 10px;
+    min-width: 50vh;
+    min-height: 30vh;
+}
+
+.content1{
+    float: left;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+p1{
+    margin: 50px;
+    text-align: end;
+}
+
+.aboutptu-card .ptu-social{
+    text-align: justify;
+}
+
+.aboutptu-card .ptu-social i{
+	color:#4c00ff;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.button1{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.readmore-btn1{
+    display: inline;
+    color: #4c00ff;
+    background: none;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+h3{
+    display:inline;
+    float:left;
+}
+h4{
+    display:inline;
+    padding-inline-start: 10px;
+}
+
+.vcimg{
+    float:left; 
+    padding-inline-end: 10px;
+    min-width: 25vh;
+    min-height: 25vh;
+}
+
+.content2{
+    float: left;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+p2{
+    margin: 50px;
+    text-align: end;
+}
+
+.button2{
+    display: inline;
+    float: right;
+    margin-inline-end: 50px;
+    margin-top: 10px;
+}
+
+.readmore-btn2{
+    color: #a200ff;
+    background: none;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
