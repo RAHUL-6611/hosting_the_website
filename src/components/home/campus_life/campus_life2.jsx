@@ -8,6 +8,8 @@ import img3 from './image-S458.jpg'
 import img4 from './image-S459.jpg'
 import img5 from './image-S470.jpg'
 
+import vid from './5_6300889238535668990.mp4'
+
 export default function CampupsLifeTwo()
 {
     return (
@@ -21,7 +23,7 @@ export default function CampupsLifeTwo()
              <br/><br/> */}
         <div class="campus2container">
           <div class="col1">
-            <video id="video"src="5_6300889238535668990.mp4" autolay muted loop></video>
+            <video id="video"src={vid} autoplay muted loop></video>
           </div>
           <div class="col2">
             <img src={img1} alt=""/>
@@ -37,11 +39,6 @@ export default function CampupsLifeTwo()
             <img src={img2} alt=""/>
             <img src={img4} alt=""/>
             <img src={img5} alt=""/>
-          </div>
-          <div class="col5">
-            <img src="image-S456.jpg" alt=""/>
-            <img src="image-S458.jpg" alt=""/>
-            <img src="image-S459.jpg" alt=""/>
           </div>
     </div>
     <br/>

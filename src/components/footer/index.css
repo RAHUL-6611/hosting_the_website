@@ -11,7 +11,7 @@
     font-family: 'Poppins', sans-serif;
 } 
 
-h5{
+.newsContainer h5{
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ h5{
     color:rgb(65, 162, 207);
 }
 
-li{
+.newsContainer li{
     padding-bottom: 10px;
 }
 
@@ -105,13 +105,13 @@ li{
   padding: 10px;
 }
 
-h2{
+.newsContainer h2{
   font-weight: bold;
   font-size: 24px;
   padding-bottom: 10px;
 }
 
-li a{
+.newsContainer li a{
   color: white;
 }
 

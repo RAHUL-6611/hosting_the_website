@@ -6,22 +6,22 @@
     transform: translateX(-50%);
     left: 50%;
 }
-.col1{
+.col11{
     position: relative;
     width: 50%;
 }
-.col1 img{
+.col11 img{
     position: relative;
     height: 100%;
     width: 100%;
 }
-.col2, .col3{
+.col12, .col13{
     position: relative;
     display: flex;
     width: 25%;
     flex-direction: column;
 }
-.col2 img, .col3 img{
+.col12 img, .col13 img{
     position: relative;
     width: 100%;
     height: 50%;

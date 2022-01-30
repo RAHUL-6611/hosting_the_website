@@ -11,11 +11,10 @@ export default function AboutUs()
      <div className="about-hold xl:flex xl:justify-evenly block justify-center px-20 ">
         <div className="aboutptu-card m-5">
         <div className="abouthead1">        
-            <h1 style={{"color" : "black", "font-size":"40px", "font-family":"Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}>About</h1>
-            <h2 style={{"color": "#343eff", "font-size":"40px", "font-family" :"Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}>PTU</h2>
+            {/* <h1 style={{"color" : "black", "font-size":"40px", "font-family":"Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}>About</h1>
+            <h2 style={{"color": "#343eff", "font-size":"40px", "font-family" :"Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}>PTU</h2> */}
         </div>
         <div className="content1">
-            <h6></h6>
             <div className="clgimg">
                 <img src={imgptu} alt="image is not available" width="300" height="auto" className="ptuimg" />
             </div>
@@ -34,11 +33,10 @@ export default function AboutUs()
     
     <div className="aboutvc-card m-5">
         <div className="abouthead2">
-            <h3 style={{"color":"black", "font-size" : "40px", "font-family" : "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}>Vice</h3>
-            <h4 style={{"color" : "rgb(195, 0, 255)", "font-size" : "40px", "font-family" :"Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}> Chancellor</h4>
+            {/* <h3 style={{"color":"black", "font-size" : "40px", "font-family" : "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}>Vice</h3>
+            <h4 style={{"color" : "rgb(195, 0, 255)", "font-size" : "40px", "font-family" :"Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}}> Chancellor</h4> */}
         </div>
         <div className="content2">
-            <h6></h6>
             <div className="ptuvcimg">
                 <img src={imgvc} alt="image is not available" width="300" height="auto" className="vcimg" />
             </div>
