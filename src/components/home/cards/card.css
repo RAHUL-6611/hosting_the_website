@@ -1,4 +1,7 @@
-
+.hold{
+    display: flex;
+    justify-content: center;
+}
 
 .text{
     padding: 50px 20px;
