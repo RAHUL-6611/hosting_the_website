@@ -1,0 +1,110 @@
+.campusVedio{
+    font-family: sans-serif;
+    background-color: rgba(59, 59, 59, 0.945);
+}
+.campus2container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 338px;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 30px;
+}
+.campus2container div{
+    margin: 0px 10px;
+}
+.col1{
+    position: relative;
+    width: 50%;
+}
+.col1 video{
+    position: relative;
+    width: 100%;
+    border: 1px solid white;
+    height: calc(100% + 2px);
+}
+.col2, .col3, .col4, .col5{
+    position: relative;
+    display: flex;
+    width: 12.5%;
+    flex-direction: column;
+}
+.col2 img, .col3 img, .col4 img, .col5 img{
+    position: relative;
+    width: 100%;
+    height: 33%;
+}
+img{
+    border: 1px solid white;
+    margin: 1px;
+}
+h2{
+    padding-left: 10px;
+    color: white;
+    position: absolute;
+    top: 15%;
+}
+h2::after{
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 10px;
+    width: 70px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(149, 147, 147);
+}
+h2:nth-child(2){
+    left: 47%;
+}
+p{
+    line-height: 20px;
+    text-align: justify;
+    color: white;
+}
+.parent-campus2container{
+    margin: 60px;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+a{
+    position: absolute;
+    right: 90px;
+    top: 20%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: transparent;
+    transition-property: background-color,color;
+    transition-duration: 500ms;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(251, 251, 251, 0.753);
+}
+
+@media (max-width:950px){
+    a{
+        position: relative;
+        top: initial;
+        right: initial;
+        margin-left: 5px;
+    }
+    h2{
+        position: relative;
+        top: initial;
+        right: initial;
+        margin-left: 5px;
+    }
+    .parent-campus2container{
+        margin: 5%;
+        margin-top: 10%;
+    }
+    .campus2container{
+        margin-top: 10px;
+    }
+}
