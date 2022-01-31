@@ -173,8 +173,8 @@ const Carousel = () => {
     }, [items]);
 
     return (
+        <>
         <div className="carousel__wrap">
-            
             <div className="carousel__inner">
                 <button className="carousel__btn carousel__btn--prev" onClick={() => nextClick()}>
                     <i className="carousel__btn-arrow carousel__btn-arrow--left text-sm" />
@@ -205,6 +205,7 @@ const Carousel = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
