@@ -24,6 +24,19 @@ const _items = [
     },
     {
         player: {
+            title: 'IT',
+            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima",
+            image: img2,
+        },
+    },{
+        player: {
+            title: 'IT',
+            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima",
+            image: img2,
+        },
+    },
+    {
+        player: {
             title: 'ECE',
             desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
             image: img3,
@@ -88,7 +101,7 @@ const createItem = (position, idx) => {
     switch (position) {
         case length - 1:
         case length + 1:
-            item.styles = {...item.styles};
+            item.styles = {...item.styles, opacity: 0};
             break;
         case length:
             break;
@@ -146,10 +159,10 @@ const Carousel = () => {
         }
     };
 
-    const handleDotClick = (idx) => {
-        if (idx < activeIdx) prevClick(activeIdx - idx);
-        if (idx > activeIdx) nextClick(idx - activeIdx);
-    };
+    // const handleDotClick = (idx) => {
+    //     if (idx < activeIdx) prevClick(activeIdx - idx);
+    //     if (idx > activeIdx) nextClick(idx - activeIdx);
+    // };
 
     useEffect(() => {
         if (isTicking) sleep(300).then(() => setIsTicking(false));
@@ -163,7 +176,7 @@ const Carousel = () => {
         <div className="carousel__wrap">
             
             <div className="carousel__inner">
-                <button className="carousel__btn carousel__btn--prev" onClick={() => prevClick()}>
+                <button className="carousel__btn carousel__btn--prev" onClick={() => nextClick()}>
                     <i className="carousel__btn-arrow carousel__btn-arrow--left text-sm" />
                 </button>
                 <div className="carousel__container">
@@ -178,7 +191,7 @@ const Carousel = () => {
                         ))}
                     </ul>
                 </div>
-                <button className="carousel__btn carousel__btn--next" onClick={() => nextClick()}>
+                <button className="carousel__btn carousel__btn--next" onClick={() => prevClick()}>
                     <i className="carousel__btn-arrow carousel__btn-arrow--right" />
                 </button>
                 <div className="carousel__dots">

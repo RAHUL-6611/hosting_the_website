@@ -1,4 +1,4 @@
-$slide-count: 5;
+$slide-count: 9;
 $slide-width: 30rem;
 
 html {
@@ -69,12 +69,12 @@ body {
 
 .carousel__slide-list {
     height: 100%;
-    left: 50%;
+    // left: 50%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute;
-    transform: translateX(-50%);
+    transform: translateX(-55.345%);
     width: calc(#{($slide-count + 0.5) * $slide-width * 2});
 }
 
@@ -152,6 +152,7 @@ body {
     margin: 0.7rem 0;
     margin-right: 9px;
     background: white;
+    color: black;
     padding: 3px 9px;
     height: max-content;
     border-left: 3px solid white;
@@ -220,6 +221,7 @@ body {
 
 .carousel__dots {
     display: inline-block;
+    display: none;
     left: 50%;
     margin-top: 2rem;
     position: absolute;

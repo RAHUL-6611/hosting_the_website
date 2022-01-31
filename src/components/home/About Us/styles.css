@@ -6,25 +6,38 @@
     font-family: sans-serif;
 }
 
+.about-hold{
+    padding-bottom: 80px;
+    padding-top: 80px;
+    text-align: -webkit-center;
+    background-color: #c5bebe27;
+}
+
 .aboutptu-card{
     display: flex;
-    background-color: #d0d2ff;
-    padding: 10px; 
-    width: 100vh;
+    background-color: #660000;
+    padding: 18px 15px 0px 32px;
+    border: 2px solid #8e0606;
     height: auto;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px 3px #e5e7ff;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #00000091;
+    margin: 0px 45px;
+    margin-top: 50px;
 }
 
 
 .aboutvc-card{
     display: flex;
-    background-color: #f6cffd;
-    padding: 10px;
-    width: 100vh;
+    background-color: #660000;
+    padding: 18px 15px 0px 32px;
+    border: 2px solid #8e0606;
     height: auto;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px 3px #fbecfd;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #00000091;
+    margin: 0px 45px;
+    margin-top: 50px;
 }
 
 h1{
@@ -40,8 +53,10 @@ h2{
     float:left;
     margin-top: 10px;
     padding-inline-end: 10px;
+    border: none;
     min-width: 50vh;
     min-height: 30vh;
+    margin-right: 20px;
 }
 
 .content1{
@@ -75,6 +90,7 @@ p{
     font-size: large;
     border: none;
     cursor: pointer;
+    box-shadow: none;
 }
 
 h3{
@@ -89,9 +105,10 @@ h4{
 .vcimg{
     float:left; 
     padding-inline-end: 10px;
-    
+    border: none;    
     width: 250px;
     height: auto;
+    margin-right: 20px;
 }
 
 .content2{
@@ -114,11 +131,12 @@ p2{
 }
 
 .readmore-btn2{
-    color: #a200ff;
+    color: #4c00ff;
     background: none;
     font-size: large;
     border: none;
     cursor: pointer;
+    box-shadow: none;
 }
 
 

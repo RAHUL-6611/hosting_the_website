@@ -33,16 +33,20 @@ h1{
     border-left: 5px solid red;
     padding-left: 10px;
 }
-p{
+.parent-container p{
     line-height: 20px;
     text-align: justify;
+    color: black;
+    text-align: left;
+    padding: 0px;
+    margin: 40px 6px;
 }
 .parent-container{
     margin: 60px;
     margin-top: 40px;
     margin-right: 80px;
 }
-a{
+.parent-container a{
     position: absolute;
     right: 87px;
     top: 50px;

@@ -88,14 +88,13 @@ body {
 
 .carousel__slide-list {
   height: 100%;
-  left: 50%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   position: absolute;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: calc(330rem);
+  -webkit-transform: translateX(-55.345%);
+          transform: translateX(-55.345%);
+  width: calc(570rem);
 }
 
 .carousel__slide-item {
@@ -187,6 +186,7 @@ body {
   margin: 0.7rem 0;
   margin-right: 9px;
   background: white;
+  color: black;
   padding: 3px 9px;
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -268,6 +268,7 @@ body {
 
 .carousel__dots {
   display: inline-block;
+  display: none;
   left: 50%;
   margin-top: 2rem;
   position: absolute;
