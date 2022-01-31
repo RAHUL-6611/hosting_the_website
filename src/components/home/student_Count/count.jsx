@@ -1,5 +1,7 @@
 import React from "react";
 
+import { HiOutlineAcademicCap, HiAcademicCap } from '../../../../node_modules/react-icons/hi'
+
 import './style.css'
 
 export default function StudentCount()
@@ -11,63 +13,28 @@ export default function StudentCount()
             PTU by the Numbers
         </h1>
         <div class="box">
-
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
-            <div class="items">
-                <i class="fas fa-graduation-cap"></i>
-                <div class="para">
-                    <span>2105</span>
-                    <p>Undergraduate Students</p>
-                </div>
-            </div>
+            {
+                [1,2,3,4].map(()=>{
+                    return(
+                        <>
+                        <div class="items" id="">
+                            <div class="para">
+                             <HiOutlineAcademicCap style={{"font-size" : "59px", "transform" : "translate(15px, 60px)"}}/>
+                              <span>2105+</span>
+                              <p>Undergraduate Students</p>
+                            </div>
+                        </div>
+                        <div class="items" id="">
+                            <div class="para">
+                               <HiAcademicCap style={{"font-size" : "59px", "transform" : "translate(15px, 60px)"}}/>
+                                <span>215+</span>
+                                <p>Undergraduate Students</p>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            }
         </div>
 
     </div>

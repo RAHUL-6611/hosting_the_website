@@ -8,7 +8,6 @@ export default function NewsBlock()
         <>
          <div className="newsContainer">
          <h5 style={{"padding-top" : "2rem"}}>Highlights , Announcements ,Current Openings</h5>
-         <h5>Without Flex box</h5>
 
       <div class="container" style={{"margin-top" : "50px"}}>
           <div class="row">
@@ -61,7 +60,6 @@ export default function NewsBlock()
       </div>
 
       <h5 style={{"margin-top" : "5rem"}}>Latest News , Announcements ,Featured Research</h5>
-      <h5>With flex-box</h5>
 
       <div class="container-1" style={{"margin-top" : "50px"}}>
 

@@ -27,7 +27,6 @@
 }
 h1::before{
     background-color:orangered ;
-    
     content: "";
     position: absolute;
     left: -15px;
@@ -44,7 +43,6 @@ h1::before{
 } 
 
 .items{
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +56,11 @@ span{
 }
 .para{
     font-size: 17px;
+}
+
+.para p{
+    width: max-content;
+    transform: translate(-23px, 0px);
 }
 
 @media screen and (max-width: 1160px) {
