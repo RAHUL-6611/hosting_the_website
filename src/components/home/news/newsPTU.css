@@ -1,0 +1,41 @@
+.news-part p{
+    margin: 5px 0px;
+}
+
+.description{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.date{
+    background-color: #ad0303;
+    color: whitesmoke;
+    margin-right: 10px;
+    padding: 1px 2px;
+    padding-right: 3px;
+}
+
+.events{
+    margin-top: 40px;
+}
+
+.card-part{
+    margin: 13px 0px;
+    border-bottom: 2px dashed #ad0303;
+    border-left: 2px solid #ad0303;
+}
+
+.card-part p:nth-child(1)
+{
+    font-weight: 700;
+}
+
+.notice-head{
+    background-color: #ad0303;
+    color: whitesmoke;
+
+}
+
+.up{
+    border: 4px dashed #ad0303;
+}
