@@ -2,8 +2,13 @@ import { useState, useEffect } from "react";
 import "./carousel.css";
 
 // import img1 from '../../images/cse.jpg';
-import img2 from '../../images/civil.jpg';
+import img1 from '../../images/civil.jpg';
+import img2 from '../../images/cse.jpg';
 import img3 from '../../images/eee.jpg';
+import img4 from '../../images/ece 2.jpg';
+import img5 from '../../images/eie 2.jpg';
+import img7 from '../../images/me.jpg';
+import img9 from '../../images/chemical department.jpg';
 
 
 /************************************
@@ -17,36 +22,30 @@ const slideWidth = 30;
 const _items = [
     {
         player: {
-            title: 'IT',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima",
+            title: 'CSE',
+            desc : "The Department aims at providing high quality training to students through the latest in computer technology and  offers B.Tech. (CSE), M.Tech. (Data Science), M.Tech. (Information Security), MCA and Ph.D.(including QIP and NDF schemes) programme.",
             image: img2,
         },
     },
     {
         player: {
             title: 'IT',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima",
-            image: img2,
+            desc : "The Department of Information Technology has well experienced faculty, skilled technical staff and well equipped laboratories. It offers one undergraduate program B.Tech. (Information Technology). It aims at providing high quality training to students through the latest in Information Technology.",
+            image: img5,
         },
     },{
         player: {
-            title: 'IT',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima",
-            image: img2,
-        },
-    },
-    {
-        player: {
-            title: 'ECE',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
+            title: 'EEE',
+            desc : "The Department of Electrical and Electronics Engineering provides a progressive environment for learning through systematic teaching methodologies, rigorous practical training and contemporary curriculum; research through creative activities in conventional and thrust areas of Electrical and Electronics Engineering.",
             image: img3,
         },
     },
+    
     {
         player: {
-            title: "IT",
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima",
-            image: img2,
+            title: "ECE",
+            desc : "Dept. of ECE, Pondicherry Engineering College was established in the year 1985. Throughout its sparkling history of 33 years, the department of ECE has been known for its exceptionally strong Under-Graduate and Graduate training programmes.",
+            image: img4,
         },
     },
     {
@@ -59,22 +58,29 @@ const _items = [
     {
         player: {
             title: 'Chemical',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
-            image: img3,
+            desc : "The Department of chemical engineering was established in the year 1998 with a vision to impart high quality chemical engineering education and to serve the needs of industries and societies through technical services, consultancy and research.",
+            image: img9,
         },
     },
     {
         player: {
             title: 'EIE',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
-            image: img2,
+            desc : "Instrumentation is the branch of engineering that deals with measurement and control. In  this  fully  automated world, this  course  which  is  a  complete  blend  of  technical  subjects.",
+            image: img5,
+        },
+    },
+    {
+        player: {
+            title: 'Civil',
+            desc : "The Department of Civil Engineering was established during the inception of the college. Apart from offering B.Tech in Civil Engineering, two M.Tech programmes in Structural Engineering and Environmental Engineering specialization and PhD  programme in Civil Engineering are offered.",
+            image: img1,
         },
     },
     {
         player: {
             title: 'Mectronics',
-            desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt quas quibusdam numquam neque molestiae tempora veritatis earum ab minima.",
-            image: img2,
+            desc : "The Department of Mechanical Engineering offers B. Tech., M. Tech., and Ph. D Programmes. The Department of Mechanical Engineering has become the QIP centre in the year 2013. Highly qualified, experienced and committed faculty members significantly contribute to the growth of the college in general and the Department in particular. The UG course of the department is accreted by NBA for a period of 5 years. ",
+            image: img7,
         },
     },
     

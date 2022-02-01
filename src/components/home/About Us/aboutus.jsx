@@ -2,7 +2,7 @@ import React from "react";
 
 import './styles.css'
 import imgptu from "./ptuimg.jpg"
-import imgvc from "./vc.png"
+import imgvc from "../../../images/vc dr s mohan.jpg"
 
 export default function AboutUs()
 {

@@ -1,0 +1,142 @@
+header{
+    height: 100vh;
+    width: 100%;
+    background:#FAFAFA;
+    /* background: #000; */
+}
+
+.marquee{
+    background:red;
+    color: #fff;
+}
+
+.top__line{
+    width: 100%;
+    background:rgb(139, 0, 0);
+    color: #fff;
+    
+}
+.options__topline{
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    margin-right: 250px;
+}
+.options__topline span{
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_and_searchbar{
+    display: flex;
+    /* justify-content:center; */
+    justify-content:space-around;
+    padding: 10px 100px;
+    background: linear-gradient(90deg, rgba(246,218,189,1) 0%, rgba(255,255,255,1) 54%, rgba(255,246,234,1) 100%);
+}
+
+.logo_header{
+    display: flex;
+    gap:2rem;
+    border: none;
+}
+
+.logo_header img{
+    width: 100px;
+    border: none;
+    
+}
+.logo_header h1{
+    /* padding: 0; */
+    margin: 0;
+    border: 0;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius:5px;
+
+}
+
+.header__image{
+    width:100%;
+     height:70vh;
+     z-index: -1;
+     box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+     -webkit-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+     -moz-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+}
+
+.display_none{
+    display: none;
+    position:absolute;
+    background:  rgba(255,255,255,0.75);
+    padding: 0;
+    border-radius: 10px;
+    transition: display 1s;
+}
+
+.display_none p{
+    padding: 10px 40px;
+    margin: 0;
+    display: flex;
+    /* transition: display 1s; */
+}
+
+.navbar_for_header{
+    display: flex;
+    justify-content:center;
+    background: linear-gradient(90deg, rgba(246,218,189,1) 0%, rgba(255,255,255,1) 54%, rgba(255,246,234,1) 100%);
+}
+
+.navbar_for_header ul{
+    display: flex;
+}
+
+.navbar_for_header ul li{
+    padding: 20px 40px;
+    position: relative;
+}
+
+.image_gallery{
+    width: 100%;
+    height: 80vh;
+    box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+-webkit-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+-moz-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+    background:url("../assets//college.jpeg") no-repeat;
+    background-size: 100%;
+}
+
+.navbar_for_header ul li::after{
+    content:"";
+    position: absolute;
+    border-right: 1px solid rgba(1,1,1,0.5);
+    height: 30px;
+    right: -4px;
+    filter:blur(1px);
+}
+
+.navbar_for_header ul li:last-child:after{
+    border: none;
+    
+}
+
+.navbar_for_header ul li:hover .display_none{
+    display: block;
+    transition: display 1s;
+}
+
+.navbar_for_header ul li .display_none ul li::after{
+    border: none;
+}

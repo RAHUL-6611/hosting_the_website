@@ -2,11 +2,11 @@ import React from "react";
 
 import './CAMPUS_LIFE.css'
 
-import img1 from './image-S456.jpg'
-import img2 from './image-S457.jpg'
-import img3 from './image-S458.jpg'
-import img4 from './image-S459.jpg'
-import img5 from './image-S470.jpg'
+import img1 from '../../../images/civil.jpg'
+import img2 from '../../../images/eie 2.jpg'
+import img3 from '../../../images/ece.jpg'
+import img4 from '../../../images/eee.jpg'
+import img5 from '../../../images/ecedept.jpg'
 
 export default function CampusLifeOne()
 {

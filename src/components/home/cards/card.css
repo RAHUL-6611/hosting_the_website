@@ -5,6 +5,11 @@
 @media (max-width : 900px){
     
 } */
+
+.holding_part{
+    transform: translateY(-347px);
+    position: absolute;
+}
 .text{
     padding: 50px 20px;
     color: white;
