@@ -6,7 +6,7 @@ export default function NewsBlock()
 {
     return(
         <>
-         <div className="newsContainer">
+         <div className="newsContainer" style={{"background" : "white"}}>
          <h5 style={{"padding-top" : "2rem"}}>Highlights , Announcements ,Current Openings</h5>
 
       <div class="container" style={{"margin-top" : "50px"}}>
@@ -14,7 +14,7 @@ export default function NewsBlock()
               <div class="col-md-4 pt-3">
                 <div class="newsCard" >
                     <div class="newsCard-body">
-                      <h5 class="newsCard-header-pills text-light bg-dark title">Highlights </h5>
+                      <h5 class="newsCard-header-pills text-light bg-dark title">Latest News</h5>
                       <div class="scroll-bg">
                         <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
                         <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
@@ -26,25 +26,11 @@ export default function NewsBlock()
                     </div>
                   </div>
               </div>
+              
               <div class="col-md-4 pt-3">
                 <div class="newsCard">
                     <div class="newsCard-body">
-                      <h5 class="newsCard-header-pills text-light bg-dark title">Announcements</h5>
-                      <div class="scroll-bg">
-                        <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
-                        <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
-                        <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
-                        <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
-                        <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
-                        <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-md-4 pt-3">
-                <div class="newsCard">
-                    <div class="newsCard-body">
-                      <h5 class="newsCard-header-pills text-light bg-dark title">Current Openings</h5>
+                      <h5 class="newsCard-header-pills text-light bg-dark title">Events</h5>
                         <div class="scroll-bg">
                           <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
                           <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
@@ -59,7 +45,7 @@ export default function NewsBlock()
           </div>
       </div>
 
-      <h5 style={{"margin-top" : "5rem"}}>Latest News , Announcements ,Featured Research</h5>
+      <h5 style={{"margin-top" : "5rem"}}>Current opeanings , Highlights ,Featured Research</h5>
 
       <div class="container-1" style={{"margin-top" : "50px"}}>
 
@@ -67,7 +53,7 @@ export default function NewsBlock()
         <div class="box-1" >
           <div class="newsCard">
             <div class="newsCard-body">
-              <h5 class="newsCard-header-pills text-light bg-dark title">Latest News</h5>
+              <h5 class="newsCard-header-pills text-light bg-dark title">current opeanings</h5>
               <div class="scroll-bg">
                   <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>
                   <li><a href="#">Some quick example text to build on the newsCard title and make up the bulk of the newsCard's content.</a></li>

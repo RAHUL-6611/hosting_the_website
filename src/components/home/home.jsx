@@ -14,9 +14,9 @@ export default function Home() {
         <div>
            <CardHold />
            <AboutUs />
-           <StudentCount />
-           <CarouselHold />
            <NewsBlock />
+           <CarouselHold />
+           <StudentCount />
            <CampusLifeOne />
         </div>
     )

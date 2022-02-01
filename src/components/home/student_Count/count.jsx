@@ -14,21 +14,14 @@ export default function StudentCount()
         </h1>
         <div class="box">
             {
-                [1,2,3,4].map(()=>{
+                ["undetgraduate students", "postgraduate students", "Phd students", "Research scholare", "teaching and non-teaching staffs ", "administrative faculties ", "Award won Projects", "inovations by students"].map((e)=>{
                     return(
                         <>
                         <div class="items" id="">
                             <div class="para">
                              <HiOutlineAcademicCap style={{"font-size" : "59px", "transform" : "translate(15px, 60px)"}}/>
                               <span>2105+</span>
-                              <p>Undergraduate Students</p>
-                            </div>
-                        </div>
-                        <div class="items" id="">
-                            <div class="para">
-                               <HiAcademicCap style={{"font-size" : "59px", "transform" : "translate(15px, 60px)"}}/>
-                                <span>215+</span>
-                                <p>Undergraduate Students</p>
+                              <p>{e}</p>
                             </div>
                         </div>
                         </>

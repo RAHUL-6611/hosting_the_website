@@ -8,6 +8,7 @@ export default function AboutUs()
 {
     return(
         <>
+        
      <div className="about-hold xl:flex xl:justify-evenly block justify-center px-20 ">
         <div className="aboutptu-card m-5">
         <div className="abouthead1">        
