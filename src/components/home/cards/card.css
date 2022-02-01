@@ -7,8 +7,8 @@
 } */
 
 .holding_part{
-    transform: translateY(-347px);
-    position: absolute;
+    transform: translateY(-207px);
+    /* position: absolute; */
 }
 .text{
     padding: 50px 20px;

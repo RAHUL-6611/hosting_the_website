@@ -14,8 +14,8 @@ export default function CardHold(){
             <div className="hold my-20 block justify-center align-center md:flex md:justify-evenly">
                 <Card color="#80002da3" img={imgs1} name="Researches"/>
                 <Card color="#768000a3" img={imgs2} name="Academics"/>
-                <Card color="#008006a3" img={imgs3} name="Inovations"/>
-                <Card color="#000880a3" img={imgs4} name="Faculies"/>
+                <Card color="#008006a3" img={imgs3} name="Innovations"/>
+                <Card color="#000880a3" img={imgs4} name="Faculties"/>
             </div>
         </div>
     )
