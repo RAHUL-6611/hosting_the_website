@@ -5,11 +5,13 @@ import { FaLocationArrow } from "react-icons/fa";
 import { BsSearch } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
 import { BiWindowOpen } from "react-icons/bi";
+// import { IoMdArrowDropright } from "react-icons/fa";
 import logo from "../assets/logo.png";
 import eie from "../../images/eie.png"
 import SmallCarousel from "./small_carousel/smallCarousel";
-
-
+import { IoMdArrowDropright } from "react-icons/io";
+import arrow from "../assets/right-arrow.png"
+ 
 // import NavbarComponent from "./NavbarComponent"
 // import college from "../../images/about.jpg"
 
@@ -23,11 +25,19 @@ const Header = () => {
           </span>
           |
           <span>
-            Departments and Centers
+            Examination Wing
           </span>
           |
           <span>
             Quick Links
+          </span>
+          |
+          <span>
+            Site Map
+          </span>
+          |
+          <span>
+            Alumni
           </span>
           |
           <span>
@@ -72,46 +82,51 @@ const Header = () => {
             <div className="display_none">
               <div className="go_to_section">
                 <p>
-                  Go to Education <BiWindowOpen className="section_icon" />
+                  Go to Education  <IoMdArrowDropright className="section_icon"/>
                 </p>
                 <ImCross className="section_icon red" />
               </div>
               <div className="section_four_column">
                 <div className="sdegrees">
-                  <h6>Academic Curriculam &amp; Syllabus</h6>
-                <div>
-                  {/* <img src={eie} alt="" /> */}
-                  {/* <p>
-                    Study programmes at PTU are research-based, analytical and
-                    innovative
-                  </p> */}
+                <div className="sdegrees">
+                  <h6>Academic Programmes</h6>
+                  <ul>
+                    <li className="capitalise"><IoMdArrowDropright className="inline"/> Undergraduate</li>
+                    <li><IoMdArrowDropright className="inline"/>Postgraduate</li>
+                    <li><IoMdArrowDropright className="inline"/> Ph.D</li>
+                  </ul>
                 </div>
 
                 </div>
                 <div className="sdegrees">
-                    <h6>Departments/Centers </h6>
+                    <h6>Departments/Centers 
+                      {/* <IoMdArrowDropright className="section_icon"/> */}
+                    </h6>
                   <ul>
-                    {/* <li>Undergraduate (BEng and BSc)</li> */}
-                    {/* <li>Graduate (MSc)</li> */}
-                    {/* <li>PhD</li> */}
+                    <li><IoMdArrowDropright className="inline"/>CSE</li>
+                    <li><IoMdArrowDropright className="inline"/>EEE</li>
+                    <li><IoMdArrowDropright className="inline"/>EIE</li>
+                    <li><IoMdArrowDropright className="inline"/>Mech</li>
+                    <li><IoMdArrowDropright className="inline"/>IT</li>
                   </ul>
                 </div>
                 <div className="sdegrees">
                     <h6>Curriculam &amp; Syllabus</h6>
                   <ul>
-                    <li>Section 1</li>
-                    <li>Section 1</li>
-                    <li>Section 1</li>
+                    <li><IoMdArrowDropright className="inline"/>B.Tech</li>
+                    <li><IoMdArrowDropright className="inline"/>M.Tech</li>
+                    <li><IoMdArrowDropright className="inline"/>MCA</li>
+                    <li><IoMdArrowDropright className="inline"/>MSc</li>
                   </ul>
                 </div>
                 <div className="sdegrees">
                     <h6>Academics Services</h6>
                   <ul>
-                    <li>Time Table</li>
-                    <li>Fees</li>
-                    <li>Scholarship</li>
-                    <li>Orientation</li>
-                    <li>Programmes</li>
+                    <li><IoMdArrowDropright className="inline"/>Time Table</li>
+                    <li><IoMdArrowDropright className="inline"/>Fees</li>
+                    <li><IoMdArrowDropright className="inline"/>Scholarship</li>
+                    <li><IoMdArrowDropright className="inline"/>Orientation</li>
+                    <li><IoMdArrowDropright className="inline"/>Programmes</li>
                   </ul>
                 </div>
               </div>
@@ -120,17 +135,18 @@ const Header = () => {
           <li>
             Research
             
-            <div className="display_none innovation">
+            <div className="display_none research">
               <div className="go_to_section">
                 <p>
-                  Go to Research <BiWindowOpen className="section_icon" />
+                  Go to Research 
+                  {/* <img src={arrow} alt="" className="the_arrow"/> */}
+                   <IoMdArrowDropright className="section_icon"/>
                 </p>
                 <ImCross className="section_icon red" />
               </div>
               <div className="section_four_column">
                 <div className="sdegrees">
                   <h6>Research Facilities</h6>
-
                 </div>
                 <div className="sdegrees">
                     <h6>MoUs</h6>
@@ -156,13 +172,13 @@ const Header = () => {
             <div className="display_none innovation">
               <div className="go_to_section">
                 <p>
-                  Go to Research <BiWindowOpen className="section_icon" />
+                  Go to Innovation  <IoMdArrowDropright className="section_icon"/>
                 </p>
                 <ImCross className="section_icon red" />
               </div>
               <div className="section_four_column">
                 <div className="sdegrees">
-                  <h6>Institute Entrepreneurship</h6>
+                  <h6>Institute Entrepreneurship And Development Cell (IEDC)</h6>
 
                 </div>
                 <div className="sdegrees">
@@ -182,50 +198,22 @@ const Header = () => {
 
           </li>
           <li>
-            Collaborations
+            Admissions
             <div className="display_none to_left">
               <div className="go_to_section">
                 <p>
-                  Go to Collaborations <BiWindowOpen className="section_icon" />
+                  Go to Admissions  <IoMdArrowDropright className="section_icon"/>
                 </p>
                 <ImCross className="section_icon red" />
               </div>
-              <div className="section_four_column">
-                <div>
-
-                <div>
-                  <img src={eie} alt="" />
-                  <p>
-                    Study programmes at PTU are research-based, analytical and
-                    innovative
-                  </p>
-                </div>
-                </div>
                 <div className="sdegrees">
-                    <h3>Degrees </h3>
-                  <ul>
-                    <li>Undergraduate (BEng and BSc)</li>
-                    <li>Graduate (MSc)</li>
-                    <li>PhD</li>
+                  <ul className="flex_here">
+                    <li><IoMdArrowDropright className="inline"/>Undergraduate</li>
+                    <li><IoMdArrowDropright className="inline"/>Postgraduate </li>
+                    <li><IoMdArrowDropright className="inline"/>Ph.D</li>
                   </ul>
                 </div>
-                <div className="sdegrees">
-                    <h3>Admissions</h3>
-                  <ul>
-                    <li>Section 1</li>
-                    <li>Section 1</li>
-                    <li>Section 1</li>
-                  </ul>
-                </div>
-                <div className="sdegrees">
-                    <h3>Extra curricular</h3>
-                  <ul>
-                    <li>Games</li>
-                    <li>Events</li>
-                    <li>sports</li>
-                  </ul>
-                </div>
-              </div>
+              
             </div>
           </li>
           <li>
@@ -233,15 +221,20 @@ const Header = () => {
             <div className="display_none about_ptu to_left">
               <div className="go_to_section">
                 <p>
-                  Go to About PTU <BiWindowOpen className="section_icon" />
+                  Go to About PTU  <IoMdArrowDropright className="section_icon"/>
                 </p>
                 <ImCross className="section_icon red" />
               </div>
               <div className="section_four_column">
                 <div className="sdegrees">
                   <h6>Overview</h6>
-                    <h6>Visions &amp; Mission</h6>
-                    <h6>Administration</h6>
+                  <ul>
+                    <li><IoMdArrowDropright className="inline"/>Visions</li>
+                    <li><IoMdArrowDropright className="inline"/>Mission</li>
+                    <li><IoMdArrowDropright className="inline"/>Administration</li>
+                  </ul>
+                    {/* <h6> &amp; </h6> */}
+                    {/* <h6></h6> */}
                 </div>
 
                   <div className="sdegrees">
@@ -261,14 +254,14 @@ const Header = () => {
                       <h6>Campus Life
                       </h6>
                       <ul>
-                        <li>HealthCare</li>
-                        <li>Hostels</li>
-                        <li>Sports</li>
-                        <li>Clubs</li>
-                        <li>Women's forum</li>
-                        <li>Student Activities</li>
-                        <li>Campus Amenities-Bank,Stores</li>
-                        <li>Campus publications</li>
+                        <li><IoMdArrowDropright className="inline"/>Healthcare</li>
+                        <li><IoMdArrowDropright className="inline"/>Hostels</li>
+                        <li><IoMdArrowDropright className="inline"/>Sports</li>
+                        <li><IoMdArrowDropright className="inline"/>Clubs</li>
+                        <li><IoMdArrowDropright className="inline"/>Women's Forum</li>
+                        <li><IoMdArrowDropright className="inline"/>Student Activities</li>
+                        <li><IoMdArrowDropright className="inline"/>Campus Amenities</li>
+                        <li><IoMdArrowDropright className="inline"/>Campus Publications</li>
                       </ul>
                   </div>
                
@@ -282,6 +275,7 @@ const Header = () => {
           <h6>Welcome to</h6>
           <h1>
               PUDUCHERRY 
+              <br/>
               TECHNOLOGICAL
               <br/>
                UNIVERSITY</h1>
@@ -292,8 +286,9 @@ const Header = () => {
       <div className="news_flash">
         <p>NEWS FLASH</p>
         <marquee>
-          Latest news from the University &nbsp; &nbsp; &nbsp; 📰 &nbsp; &nbsp;
-          &nbsp; Latest news from the University
+          {/* Latest news from the University &nbsp; &nbsp; &nbsp; 📰 &nbsp; &nbsp;
+          &nbsp; Latest news from the University */}
+          Classes will be conducted in offline mode with effect from 4.2.2022 except for First year B.Tech
         </marquee>
         {/* <marquee>Latest news from the University</marquee> */}
       </div>

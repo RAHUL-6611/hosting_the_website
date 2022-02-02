@@ -22,7 +22,7 @@ header{
     display: flex;
     /* align-items: center; */
     justify-content: flex-end;
-    margin-right: 250px;
+    margin-right: 50px;
 }
 .options__topline span{
     font-size: 15px;
@@ -152,6 +152,10 @@ input{
     font-family: 'Linden Hill', serif;
 }
 
+.navbar_for_header ul li:hover{
+    color: red;
+}
+
 .image_gallery{
     width: 100%;
     height: 100%;
@@ -168,10 +172,13 @@ input{
 }
 
 .image_gallery_text{
-    margin-right: 350px;
+    margin-right: 650px;
     display: flex;
     flex-direction: column;
     color: #fff;
+    /* color: #000000; */
+/* background: #FFFFFF; */
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 
 }
 .image_gallery h6{
@@ -186,6 +193,10 @@ input{
     margin: 0;
     font-size: 50px;
     font-weight: 700;
+}
+
+.sdegrees h6{
+    text-transform: none;;
 }
 
 
@@ -206,6 +217,7 @@ input{
 }
 
 .navbar_for_header ul li:hover .display_none{
+    color: #000 !important;
     position:absolute;
     display: flex;
     flex-wrap: wrap;
@@ -216,14 +228,21 @@ input{
     min-width: 900px;
     width: 100%;
     transition: display 1s;
+    z-index: 10000;
 }
 
 .innovation{
-    min-width: 700px !important;
+    left: -200px;
+    min-width: 900px !important;
 }
 
 .about_ptu{
     min-width: 1200px !important;
+}
+
+.the_arrow{
+    width: 20px;
+    height: 20px;
 }
 
 .display_none .sdegrees{
@@ -301,10 +320,19 @@ marquee{
     font-weight: 400;
 }
 .section_icon{
-    margin: 0 20px;
+    margin: 10px 20px;
     font-size: 20px;
+    background: rgb(156, 0, 0);
+    color: #fff;
+    padding: 1px;
+    font-size: 25px;
 
 }
+
+/* .section_icon:hover{ */
+    /* transform:translateX(10px); */
+    /* margin: 10px 0px; */
+/* } */
 
 .red{
     font-size: 25px;
@@ -362,6 +390,9 @@ marquee{
     padding: 5px 20px;
     font-size: 25px;
 } */
+.inline{
+    display: inline
+}
 
 .sdegrees{
     position: relative;
@@ -370,14 +401,19 @@ marquee{
     flex:1;
     min-width:230px;
 }
+.sdegrees ul {
+    margin-top: 15px !important;
+}
 
 .sdegrees ul li{
-    padding:5px 0;
+    padding:10px 15px;
     margin: 0;
-    font-weight: 400;
-    font-size: 10px;
-    text-transform: lowercase;
+    /* font-weight: 400; */
+    /* font-size: 10px; */
+    text-transform: none;
     text-align: left;
+    font-size: 18px !important;
+    font-weight: 600;
 }
 
 

@@ -1,6 +1,6 @@
 .card-cont{
-    right: 0;
-    bottom: 0;
+    right: 50px;
+    bottom: 40px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -24,38 +24,53 @@
 
 .card-cont button{
     cursor: pointer;
+    /* background: #fff; */
     background-color: rgb(148, 148, 148);
     box-shadow: none;
     color: #fff;
+    /* color: #000; */
 }
 
 .small-cont{
     border-radius: 20px;
     width: 450px;
-    height: 200px;
+    height: 210px;
     background-color: #bbb8c1eb;
+    /* background: rgb(165, 164, 164); */
     padding: 15px 10px 0px 20px;
     margin: 10px;
     box-shadow: 0 0 4px #0000003d;
     text-align: left;
+    border-radius: 10px;
+    /* width: 450px; */
+    /* height: 213px; */
+    /* background-color: #c1bdb8d9; */
+    /* padding: 15px 10px 0px 20px; */
+    /* margin: 10px; */
+    box-shadow: 0 0 4px #0000003d;
+    /* text-align: left; */
 
 }
 
 .parts img{
     height: 160px;
-    width:540px;
+    width:340px;
 }
 
 .parts p{
     margin: 18px 14px 0px 14px;
-    font-size: 12px;
+    /* font-size: 12px; */
+    /* margin: -3px 14px 4px 14px; */
+    font-size: 15px;
 }
 
 .parts h4{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .parts h6{
-    padding: 6px 12px 0px 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding: 6px 12px 0px 12px; */
 }

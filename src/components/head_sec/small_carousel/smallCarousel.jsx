@@ -51,7 +51,7 @@ const CardParts = ({ img, name, desig }) => {
           <div className="parts">
               <h4>{name}</h4>
               <h6>{desig}</h6>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque a magnam nam tempora cum iusto cupiditate non. Provident corporis explicabo distinctio maxime impedit debitis ad, rerum earum dolorem non placeat?</p>
+              <p>The message from the honourable vice chancellor will be updated here</p>
           </div>
         </div>
     )
