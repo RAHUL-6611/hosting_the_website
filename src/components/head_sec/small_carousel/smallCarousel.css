@@ -1,4 +1,6 @@
 .card-cont{
+    right: 0;
+    bottom: 0;
     position: absolute;
     display: flex;
     align-items: center;
@@ -22,11 +24,13 @@
 
 .card-cont button{
     cursor: pointer;
-    background-color: transparent;
+    background-color: rgb(148, 148, 148);
     box-shadow: none;
+    color: #fff;
 }
 
 .small-cont{
+    border-radius: 20px;
     width: 450px;
     height: 200px;
     background-color: #bbb8c1eb;
@@ -39,7 +43,7 @@
 
 .parts img{
     height: 160px;
-    width:440px;
+    width:540px;
 }
 
 .parts p{
