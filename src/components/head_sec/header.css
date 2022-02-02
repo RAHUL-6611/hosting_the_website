@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
+
 header{
     height: 100vh;
     width: 100%;
@@ -12,7 +14,7 @@ header{
 
 .top__line{
     width: 100%;
-    background:rgb(139, 0, 0);
+    background:rgb(196, 13, 13);
     color: #fff;
     
 }
@@ -34,37 +36,72 @@ header{
 .logo_and_searchbar{
     display: flex;
     /* justify-content:center; */
-    justify-content:space-around;
-    padding: 10px 100px;
-    background: linear-gradient(90deg, rgba(246,218,189,1) 0%, rgba(255,255,255,1) 54%, rgba(255,246,234,1) 100%);
+    justify-content:space-between;
+    padding: 10px 80px;
+    background: #fff;
+    /* background: linear-gradient(90deg, rgba(246,218,189,1) 0%, rgba(255,255,255,1) 54%, rgba(255,246,234,1) 100%); */
 }
 
 .logo_header{
     display: flex;
     gap:2rem;
     border: none;
+    align-items: center;
 }
 
 .logo_header img{
-    width: 100px;
+    width: 180px;
+    height:180px;
     border: none;
     
 }
 .logo_header h1{
-    /* padding: 0; */
     margin: 0;
+    margin-top: 20px;
     border: 0;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Linden Hill', serif;
+    line-height:45px;
 }
 
+.logo_header h1 span{
+    font-size: 48px;
+    /* color:red; */
+    font-family: 'Linden Hill', serif;
+    padding: 0;
+    margin: 0;
+}
+.logo_header p{
+    width: 60%;
+    margin: 0;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+}
 .searchbar{
     display: flex;
     align-items: center;
+    position: relative;
+    max-width: 200px;
 }
 
+.search_icon{
+    /* position: absolute; */
+    /* right: 10px; */
+    /* color:rgb(202, 5, 5); */
+    font-weight: 900;
+    font-size: 30px;
+}
 input{
+    /* border-radius:15px; */
+    width: 100%;
     padding-left: 10px;
-    border: 1px solid #000;
-    border-radius:5px;
+    /* padding-right: 30px; */
+    border-bottom: 1px solid #000;
+    outline:none;
 
 }
 
@@ -78,12 +115,13 @@ input{
 }
 
 .display_none{
-    display: none;
-    position:absolute;
-    background:  rgba(255,255,255,0.75);
-    padding: 0;
-    border-radius: 10px;
     transition: display 1s;
+    display: none;
+
+}
+
+.to_left{
+    right: 0;
 }
 
 .display_none p{
@@ -96,7 +134,9 @@ input{
 .navbar_for_header{
     display: flex;
     justify-content:center;
-    background: linear-gradient(90deg, rgba(246,218,189,1) 0%, rgba(255,255,255,1) 54%, rgba(255,246,234,1) 100%);
+    background: #fff;
+    font-family: 'Linden Hill', serif;
+    /* background: linear-gradient(90deg, rgba(246,218,189,1) 0%, rgba(255,255,255,1) 54%, rgba(255,246,234,1) 100%); */
 }
 
 .navbar_for_header ul{
@@ -106,24 +146,57 @@ input{
 .navbar_for_header ul li{
     padding: 20px 40px;
     position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(70, 69, 69);
+    font-family: 'Linden Hill', serif;
 }
 
 .image_gallery{
     width: 100%;
-    height: 80vh;
+    height: 100%;
+    min-height:70vh;
     box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
--webkit-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
--moz-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
-    background:url("../assets//college.jpeg") no-repeat;
+    -webkit-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+    -moz-box-shadow: 2px 1px 42px 39px rgba(255,255,255,0.75) inset;
+    background:url("https://images.shiksha.com/mediadata/images/1488259418phpfB3vsL.jpeg") no-repeat;
     background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
 }
+
+.image_gallery_text{
+    margin-right: 350px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+}
+.image_gallery h6{
+    text-align: left;
+    border: 0;
+    font-size: 30px;
+}
+.image_gallery h1{
+    text-align: left;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
 
 .navbar_for_header ul li::after{
     content:"";
     position: absolute;
     border-right: 1px solid rgba(1,1,1,0.5);
-    height: 30px;
+    height: 40px;
     right: -4px;
+    bottom: 15px;
     filter:blur(1px);
 }
 
@@ -133,10 +206,197 @@ input{
 }
 
 .navbar_for_header ul li:hover .display_none{
-    display: block;
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background:  rgba(255,255,255,1);
+    padding: 0;
+    border-radius: 10px;
+    min-width: 900px;
+    width: 100%;
     transition: display 1s;
 }
 
+.innovation{
+    min-width: 700px !important;
+}
+
+.about_ptu{
+    min-width: 1200px !important;
+}
+
+.display_none .sdegrees{
+    flex:1
+}
 .navbar_for_header ul li .display_none ul li::after{
     border: none;
+
+}
+
+.news_flash{
+    /* transform:translateY(-1px); */
+    /* margin-top: -20px; */
+    z-index: 1;
+    display: flex;
+    max-height: 80px;
+    /* border-bottom: .0015em solid #000; */
+    box-shadow: -4px 0px 12px 10px rgba(148,140,140,0.75),
+    -2px -13px 5px -11px rgba(148,140,140,0.75) inset;
+-webkit-box-shadow: -4px 0px 12px 5px rgba(148,140,140,0.75),
+ -2px -13px 5px -11px rgba(148,140,140,0.75) inset;
+-moz-box-shadow: -4px 0px 12px 10px rgba(148,140,140,0.75),
+ -2px -13px 5px -11px rgba(148,140,140,0.75) inset;
+
+}
+
+.news_flash p{
+    margin: 0;
+    background:rgb(218, 1, 1);
+    position: relative;
+    color: #fff;
+    text-align:center;
+    font-weight: 600;
+    min-width: 100px;
+    min-height: 50px;
+}
+.news_flash p::after{
+    background:rgb(218, 1, 1);
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 48px;
+    top: 8px;
+    right: -8px;
+    border-top-left-radius: 336px;
+    border-bottom-right-radius: 227px;
+    border-bottom-left-radius: 234px;
+
+    transform:rotate(45deg);
+    z-index: -1;
+}
+marquee{
+    z-index: -2;
+    display: inline;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.go_to_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    margin: 15px 5px;
+}
+
+.go_to_section p{
+    margin: 0;
+    padding: 0;
+    word-spacing: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+.section_icon{
+    margin: 0 20px;
+    font-size: 20px;
+
+}
+
+.red{
+    font-size: 25px;
+    color:red;
+    background: #000;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.section_four_column{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    max-width: max-content;
+    width: 620px;
+    min-height: 100px;
+    flex:1;
+}
+
+.section_four_column .sdegrees{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.section_four_column .sdegrees:not(:last-child){
+    flex:1;
+    padding: 0px 10px;
+    border-right: 2px solid rgb(139, 139, 139);
+}
+
+.section_four_column col a{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.section_four_column div p{
+    margin: 0;
+    padding: 0;
+    /* width: 70%; */
+    word-spacing: 4px;
+    font-size: 12px;
+
+}
+
+.section_four_column div ul{
+    display: flex;
+    flex-direction: column;
+}
+.section_four_column div ul li {
+    font-size: 15px;
+}
+
+/* .section_four_column div p{
+    padding: 5px 20px;
+    font-size: 25px;
+} */
+
+.sdegrees{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-width:230px;
+}
+
+.sdegrees ul li{
+    padding:5px 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+
+.section_four_column h6{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    word-spacing: 1px;
+}
+
+.section_four_colum{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.section_four_column .sdegrees ul li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    
 }

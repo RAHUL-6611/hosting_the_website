@@ -6,7 +6,7 @@ import img1 from "../../../images/chancellor.jpg"
 import img2 from "../../../images/pro chancellor.jpg"
 import img3 from "../../../images/vc dr s mohan.jpg"
 
-import { BsArrowLeftCircle, BsArrowRightCircle } from '../../../../node_modules/react-icons/bs';
+import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs';
 
 
 export default function SmallCarousel()
@@ -29,9 +29,9 @@ export default function SmallCarousel()
            </div>
             <div className="slide-hold">
             <div className="slide flex gap-4" style={{"transform" : `translate(${move}px)`}}>
+                <CardParts img={img3} desig="Vice Chancellor" name="Dr.S Mohan" />
                 <CardParts img={img1} desig="Chancellor" name="Dr. Tamilisai Soundararajan" />
                 <CardParts img={img2} desig="Pro Chancellor" name="Shri. Ashok Kumar, IAS" />
-                <CardParts img={img3} desig="Vice Chancellor" name="Dr.S Mohan" />
             </div>
             </div>
             <div className="btn"> 
