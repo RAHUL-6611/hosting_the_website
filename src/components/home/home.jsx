@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div>
            {/* <CardHold /> */}
-           <SmallCarousel />
+           {/* <SmallCarousel /> */}
            <AboutComp />
            <NewsPTU />
            {/* <AboutUs /> */}

@@ -17,36 +17,24 @@ export default function Footer()
         
         <div class="footer_box2 px-10 mx-12">
           <img src={location} alt="location" />
-          <p>Address : East coast Road , Pillaichavady ,Puducherry ,605041</p>
-          <p>Phone no : 0413 265 5281</p>
-        </div>
-        <div class="footer_box block px-9">
-           <h2 style={{"text-align" : "center"}}>Follow us on</h2>
-             <div className='navs'>
-              <a id = "nav2" href="#campus" >CAMPUS</a>
-              <a id = "nav2" href="#academics">ACADEMICS</a>
-              <a id = "nav2" href="#dept">Departments</a>
-              <a id = "nav2" href="#cells">CELLS</a>
-              <a id = "nav2" href="#clubs">CLUBS</a>
-              <a id = "nav2" href="#chapters">CHAPTERS</a>     
-              <a id = "nav2" href="#nirf">NIRF</a>
-             </div>
+          <p>Address: East coast Road, Pillaichavady, Puducherry, 605 041</p>
+          <p>Phone No: 0413 265 5281</p>
         </div>
         <div class="footer_box3 px-5">
           <h2>Follow us on</h2>
-            <div className='flex justify-evenly'> 
-             <TiSocialTwitter style={{"fontSize" : "50px"}} />
-             <TiSocialInstagram style={{"fontSize" : "49px"}}/>
-             <TiSocialLinkedin style={{"fontSize" : "50px"}}/>
-             <TiSocialYoutube style={{"fontSize" : "50px"}}/>
-             <TiSocialFacebook style={{"fontSize" : "50px"}}/>
+            <div className='flex justify-center'> 
+             <TiSocialTwitter style={{"fontSize" : "45px"}} />&nbsp;&nbsp;
+             <TiSocialInstagram style={{"fontSize" : "39px"}}/>&nbsp;&nbsp;
+             <TiSocialLinkedin style={{"fontSize" : "45px"}}/>&nbsp;&nbsp;
+             <TiSocialYoutube style={{"fontSize" : "45px"}}/>&nbsp;&nbsp;
+             <TiSocialFacebook style={{"fontSize" : "45px"}}/>
             </div>          
           <br />
         </div>
     </footer>
     
     <div className='last'>
-      this website is created using react js
+      Developed by PTU's Web Team.
     </div>
     </>
     )

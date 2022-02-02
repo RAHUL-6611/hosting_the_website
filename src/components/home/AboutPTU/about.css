@@ -52,15 +52,23 @@
 }
 
 .card-msg{
-    background:transparent;
+    background: black;
     color: black;
     padding: 7px 0px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .msg-head{
     padding: 0px 6px;
     background-color: #1e2640;
+}
+
+.msg-head h3{
+    padding: 2px 30px 2px 20px;
+    background: black;
+    color: white;
+    margin: 0px;
+    transform: translateX(-4px);
 }
 .card-msg p{
     padding: 0px 6px;
@@ -71,7 +79,7 @@
 
 .subParts:nth-child(2) .about-img{
     position: relative;
-    width: max-content;
+    /* width: max-content; */
 }
 
 /* .about-img img{

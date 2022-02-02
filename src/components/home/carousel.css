@@ -299,4 +299,9 @@ body {
 .carousel__dots .dot:hover {
   background: #a50303;
 }
+
+.car-para {
+  text-align: left;
+  padding-left: 0px;
+}
 /*# sourceMappingURL=carousel.css.map */

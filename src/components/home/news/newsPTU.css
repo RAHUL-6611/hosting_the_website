@@ -10,13 +10,28 @@
 .date{
     background-color: #ad0303;
     color: whitesmoke;
-    margin-right: 10px;
-    padding: 1px 2px;
-    padding-right: 3px;
+    margin-right: 8px;
+    padding: 8px 5px;
+    padding-right: 10px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-text{
+    text-align: center;
 }
 
 .events{
     margin-top: 40px;
+}
+
+.box-card{
+    background-color: #ad0303;
 }
 
 .card-part{
@@ -30,10 +45,35 @@
     font-weight: 700;
 }
 
-.notice-head{
+.head-head{
     background-color: #ad0303;
     color: whitesmoke;
+    text-align: left;
+    padding: 4px 20px;
+}
 
+.content{
+    text-align: left;
+}
+
+.content h2{
+    font-size: 20px;
+}
+
+.content h3{
+    font-size: 17px;
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.update-part{
+    height: 400px;
+    overflow-y: scroll;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-bottom: 30px;
 }
 
 .up{
@@ -48,6 +88,13 @@
     color: black;    
 }
 
+.update{
+    background: white;
+    color: black;
+    text-align: left;
+    padding: 10px 0px;
+}
+
 
 .img-card img{
     height: 195px;
@@ -58,4 +105,12 @@
     transform: translateY(-68px);
     background: #1301017d;
     color: white;
+}
+
+.update-part{
+    padding: 20px;
+}
+
+.newss{
+    margin: 12px;
 }

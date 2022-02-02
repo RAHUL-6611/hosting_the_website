@@ -3,58 +3,88 @@ import React from "react";
 import './about.css';
 import { BsArrowDownRightSquareFill } from '../../../../node_modules/react-icons/bs';
 
-import imgs1 from '../../../images/ece 2.jpg'
-import imgs2 from '../../../images/cse.jpg'
+import imgs1 from '../../../images/mectro.jpg'
+import imgs2 from '../../../images/home.jpg'
+
+import imgs3 from '../../../images/eie 2.jpg'
+import imgs4 from '../../../images/me.jpg'
+import imgs5 from '../../../images/civil.jpg'
+
+import imgs6 from '../../../images/Startup.jpg'
+import imgs7 from '../../../images/grad.jpg'
+
+
+let carddesc = [
+    {
+       title : "Research",
+       img : imgs1, 
+    },
+    {
+        title : "Startups",
+        img : imgs6, 
+     },
+     {
+        title : "Placements",
+        img : imgs7, 
+     }
+]
 
 export default function AboutComp()
 {
     return <>
              <div className="aboutPart grid grid-cols-5 gap-4 my-20">
                  <div className="subParts">
-                    <div className="quick-li">
+                    {/* <div className="quick-li">
                        <h7 className="quick-link">Quick Links</h7>
-                    </div>
+                    </div> */}
                     <ol>
-                        <li className="flex justify-around"><BsArrowDownRightSquareFill />Academics</li><hr/>
-                        <li className="flex justify-around"><BsArrowDownRightSquareFill />Academics</li><hr/>
-                        <li className="flex justify-around"><BsArrowDownRightSquareFill />Placements</li><hr/>
-                        <li className="flex justify-around"><BsArrowDownRightSquareFill />Admissions</li><hr/>
-                        <li className="flex justify-around"><BsArrowDownRightSquareFill />Researches</li><hr/>
+                        {
+                            [imgs3, imgs4, imgs5].map(e=> {
+                                return(
+                                    <div>
+                                        <li className="flex justify-around">
+                                           <img src={e} alt="" />
+                                         </li><hr/>
+                                    </div>
+                                )
+                            })
+                        }
                     </ol>
                  </div>
                  <div className="subParts col-span-3">
                      <div className="head-hold">
                         <h7 className="about-head">About PTU</h7>
                      </div>
-                     <p className="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae commodi dicta numquam accusantium ad a quas ut tempora aliquid recusandae! Reiciendis molestias dolores odit magni perferendis necessitatibus rem. Officia, aut. Quibusdam mollitia cupiditate, molestiae aperiam, labore animi aspernatur et ipsa illum unde delectus enim natus quo minus quas quidem modi magni officiis debitis alias error, adipisci explicabo. Quam voluptas omnis sapiente, cumque dolores, reiciendis facilis minus iusto voluptatem temporibus delectus ratione. Libero itaque, ipsum aliquam distinctio ipsa sequi velit officia soluta eius saepe aspernatur culpa enim pariatur voluptatibus ad labore, eligendi sint placeat adipisci doloribus tenetur porro tempore sunt reprehenderit.</p>
+                     <p className="about-text">Puducherry Technological University (Erstwhile Pondicherry Engineering College) is an Institution promoted and fully funded by the Government of Puducherry, India. It was established as an Engineering College in the year 1984 under the VII Five Year Plan. The college was upgraded to technological university with the approval of the UGC with effect from 5th September, 2020. The PTU was inaugurated by Shri. Venkaiah Naidu, Hon'ble Vice President, Govt. of India on 13.09.2021. The institution is ranked 144 in Engineering Category by NIRF India Rankings 2021.</p>
                      <div className="about-img">
                        <img src={imgs2} alt="" />
                      </div>
                  </div>
                  <div className="subParts">
-                    <Card /> 
-                    <Card /> 
-                    <Card /> 
+                    {
+                        carddesc.map(e=> {
+                            return <Card title={e.title} img={e.img} />
+                        })
+                    } 
                  </div>
              </div>
            </>
 }
 
-const Card = () => {
+const Card = ({ title, img }) => {
     return (
-        <div className="card-msg">
+        <div className="mb-10">
+            <div className="card-msg">
             <div className="msg-head">
-                <h3>Why to choose PTU ?</h3>
+                <h3>{title}</h3>
             </div>
             <div className="sub-card">
                 <div className="img-card">
-                  <img src={imgs1} alt="" />
+                  <img src={img} alt="" />
                 </div>
-                <div className="text-card">
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, eaque!</p>
-                  <p>Read more...</p>
-                </div>
+                
             </div>
+        </div>
         </div>
     )
 }

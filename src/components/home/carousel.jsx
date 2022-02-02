@@ -131,7 +131,7 @@ const CarouselSlideItem = ({pos, idx, activeIdx}) => {
                 <img src={item.player.image} alt={item.player.title} />
             </div>
             <div className="carousel-slide-item__body">
-                <p>{item.player.desc}</p>
+                <p className="car-para">{item.player.desc}</p>
             </div>
         </li>
     );
@@ -165,11 +165,7 @@ const Carousel = () => {
         }
     };
 
-    // const handleDotClick = (idx) => {
-    //     if (idx < activeIdx) prevClick(activeIdx - idx);
-    //     if (idx > activeIdx) nextClick(idx - activeIdx);
-    // };
-
+    
     useEffect(() => {
         if (isTicking) sleep(300).then(() => setIsTicking(false));
     }, [isTicking]);

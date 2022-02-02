@@ -1,6 +1,7 @@
 import React from "react";
 
 import { HiOutlineAcademicCap, HiAcademicCap } from '../../../../node_modules/react-icons/hi'
+import { MdCastForEducation } from '../../../../node_modules/react-icons/md'
 
 import './style.css'
 
@@ -14,14 +15,13 @@ export default function StudentCount()
         </h1>
         <div class="box">
             {
-                ["undetgraduate students", "postgraduate students", "Phd students", "Research scholare", "teaching and non-teaching staffs ", "administrative faculties ", "Award won Projects", "inovations by students"].map((e)=>{
+                ["undetgraduate students", "postgraduate students", "Phd students", "Research scholars", "teaching and non-teaching staffs ", "administrative faculties ", "Award won Projects", "inovations by students"].map((e)=>{
                     return(
                         <>
                         <div class="items" id="">
                             <div class="para">
-                             <HiOutlineAcademicCap style={{"font-size" : "59px", "transform" : "translate(15px, 60px)"}}/>
-                              <span>2105+</span>
-                              <p>{e}</p>
+                              <span className="flex justify-center"><i><HiAcademicCap/></i>&nbsp;2105+</span>
+                              <div className="para-para"><p>{e}</p></div>
                             </div>
                         </div>
                         </>
