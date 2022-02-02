@@ -1,0 +1,57 @@
+.card-cont{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.card-cont::selection{
+    display: none;
+}
+
+
+.slide-hold{
+    width: 450px;
+    overflow: hidden;
+}
+
+.slide{
+    width: 1345px;
+    z-index: 11;
+    transition: 1s;
+}
+
+.card-cont button{
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.small-cont{
+    width: 450px;
+    height: 200px;
+    background-color: #bbb8c1eb;
+    padding: 15px 10px 0px 20px;
+    margin: 10px;
+    box-shadow: 0 0 4px #0000003d;
+    text-align: left;
+
+}
+
+.parts img{
+    height: 160px;
+    width:440px;
+}
+
+.parts p{
+    margin: 18px 14px 0px 14px;
+    font-size: 12px;
+}
+
+.parts h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.parts h6{
+    padding: 6px 12px 0px 12px;
+}

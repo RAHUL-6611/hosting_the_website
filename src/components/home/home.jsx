@@ -8,6 +8,7 @@ import NewsBlock from "./newsEvents/newsBlock";
 import CampusLifeOne from "./campus_life/campus_life1";
 import AboutComp from "./AboutPTU/about";
 import NewsPTU from "./news/newsPTU";
+import SmallCarousel from "./small_carousel/smallCarousel";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
     return (
         <div>
            {/* <CardHold /> */}
+           <SmallCarousel />
            <AboutComp />
            <NewsPTU />
            {/* <AboutUs /> */}

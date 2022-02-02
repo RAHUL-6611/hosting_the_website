@@ -52,8 +52,8 @@
 }
 
 .card-msg{
-    background: #808080bf;
-    color: white;
+    background:transparent;
+    color: black;
     padding: 7px 0px;
     margin-bottom: 10px;
 }

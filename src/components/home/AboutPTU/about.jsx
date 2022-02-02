@@ -46,9 +46,15 @@ const Card = () => {
             <div className="msg-head">
                 <h3>Why to choose PTU ?</h3>
             </div>
-            <img src={imgs1} alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, eaque!</p>
-            <p>Read more...</p>
+            <div className="sub-card">
+                <div className="img-card">
+                  <img src={imgs1} alt="" />
+                </div>
+                <div className="text-card">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, eaque!</p>
+                  <p>Read more...</p>
+                </div>
+            </div>
         </div>
     )
 }

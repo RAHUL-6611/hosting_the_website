@@ -5,7 +5,7 @@ import './newsPTU.css';
 export default function NewsPTU()
 {
     return(
-        <div className="news-corner grid grid-cols-6 gap-4 my-20">
+        <div className="news-corner grid grid-cols-6 gap-4 my-20 mx-10">
             <div className="news-part col-span-4">
                 <div className="notice-head">
                     <h2>Notices and updates</h2>

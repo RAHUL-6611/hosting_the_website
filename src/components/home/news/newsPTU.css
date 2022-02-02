@@ -37,5 +37,25 @@
 }
 
 .up{
-    border: 4px dashed #ad0303;
+    border: 4px solid #ad0303;
+}
+
+.sub-card{
+    position: relative;
+}
+
+.msg-head{
+    color: black;    
+}
+
+
+.img-card img{
+    height: 195px;
+}
+
+.text-card{
+    position: absolute;
+    transform: translateY(-68px);
+    background: #1301017d;
+    color: white;
 }
