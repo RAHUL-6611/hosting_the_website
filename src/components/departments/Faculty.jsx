@@ -93,20 +93,25 @@ export default function Faculty(){
     let image = facultyData[state].img
 
     return(
-        <div className='faculty grid grid-cols-7 my-20 py-20'>
-            <div className="big col-span-4">
+        <div className='faculty grid grid-cols-7 my-35'>
+            <div className="big col-span-4 p-10 pl-20">
                 <div className="fac-info flex">
                    <div className="big-img">
-                      <img src={image} alt="" />
+                      <img src={image} />
                    </div>  
-                   <div className="big-cont">
+                   <div className="big-cont my-20 mx-5">
                        <p>Name : {name}</p>   
                        <p>Qualification : {qualify}</p>   
                        <p>Years of Experience : {Year}</p>   
                        <p>Subject : {sub}</p>   
                     </div>       
                 </div>
-                <div className='fac-msg'>{msg}</div>
+                <div className='py-10'>
+                  <div className='fac-msg text-left'>{msg}</div>
+                     <div className='text-left'>
+                        <button className='btn-read'>Read more</button>
+                     </div>
+                </div>
             </div>
             <div className="small col-span-3 mx-10">
              {

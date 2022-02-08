@@ -27,7 +27,7 @@ export default function Cse(){
             <Route path="/about" element={<About/>} />
         </Routes>
         <Routes>
-            <Route path="/faculty" element={<Faculty/>} />
+            <Route path="/faculty" element={<Courses/>} />
         </Routes>
         <Routes>
             <Route path="/facilities" element={<Facilities/>} />

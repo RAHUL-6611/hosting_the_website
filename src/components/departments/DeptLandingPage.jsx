@@ -3,19 +3,25 @@ import Gallery from "./gallery"
 import Testimonial from "./testimonial"
 import NewsPTU from "../home/news/NewsPTU"
 import HodCard from "./hod_card"
-import { Routes, Route, Link } from "react-router-dom";
+import About from './About';
+import Faculty from './Faculty';
+import { Link } from "react-router-dom";
+import Vision from './vision';
 
 const DeptLandingPage = () => {
   return (<div>
       <Link to="/about">
-       <HodCard />
+         <HodCard />
       </Link>
+      <About />
+      <Vision />
       <NewsPTU/>
-<div className="gallery_dept">
+      <Faculty />
+      <div className="gallery_dept">
         <Gallery/>
         <Gallery/>
         <Gallery/>
-        </div>
+      </div>
         <Testimonial />
   </div>);
 };

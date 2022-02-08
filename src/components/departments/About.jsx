@@ -8,35 +8,39 @@ const About = () => {
     <div className="hw1 flex justify-evenly px-20 pt-10">
         <div>
            <div className="explore text-left">Explore the</div>
-           <div className="dept-title text-left">Department</div>
+           <div className="dept-title text-left">CSE Department</div>
         </div>
         <div className="title_of-dept">
             <div className="numbers flex gap-24">
               <p>
                 <h5 className="numberse_here">455+</h5>
-                <h3 className="name_here">scholars</h3>
+                <h3 className="name_here">B.tech students</h3>
               </p>
               
               <p>
                 <h5 className="numberse_here">455+</h5>
-                <h3 className="name_here">scholars</h3>
+                <h3 className="name_here">M.tech students</h3>
               </p>
               
               <p>
                 <h5 className="numberse_here">455+</h5>
-                <h3 className="name_here">scholars</h3>
+                <h3 className="name_here">MCA students</h3>
               </p>
               
               <p>
                 <h5 className="numberse_here">455+</h5>
-                <h3 className="name_here">scholars</h3>
+                <h3 className="name_here">Phd students</h3>
+              </p>
+
+              <p>
+                <h5 className="numberse_here">455+</h5>
+                <h3 className="name_here">Faculty</h3>
               </p>
               
             </div>
     </div>
 
         </div>
-        {/* <br /> */}
         <div className="hw2 p-10 mx-20">
           <br />
           <h5 className="dep-h">About the Department</h5>
