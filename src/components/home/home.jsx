@@ -7,13 +7,14 @@ import StudentCount from "./student_Count/count";
 import NewsBlock from "./newsEvents/newsBlock";
 import CampusLifeOne from "./campus_life/campus_life1";
 import AboutComp from "./AboutPTU/about";
-import NewsPTU from "./news/newsPTU";
-
+import NewsPTU from "./news/NewsPTU";
+import Header from "../head_sec/Header";
 
 
 export default function Home() {
     return (
         <div>
+            <Header/>
            {/* <CardHold /> */}
            {/* <SmallCarousel /> */}
            <AboutComp />

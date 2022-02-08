@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { TiSocialTwitter, TiSocialYoutube, TiSocialLinkedin, TiSocialInstagram, TiSocialFacebook } from "../../../node_modules/react-icons/ti"
+import { TiSocialTwitter, TiSocialYoutube, TiSocialLinkedin, TiSocialInstagram, TiSocialFacebook } from "react-icons/ti"
 
 import './footer.css'
 import image from "../../images/PTU_Logo_black_white.png"

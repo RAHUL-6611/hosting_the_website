@@ -1,16 +1,17 @@
 // import SearchField from "react-search-field";
 import React from "react";
 import "./header.css";
-import { FaLocationArrow } from "react-icons/fa";
+// import { FaLocationArrow } from "react-icons/fa";
 import { BsSearch } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
-import { BiWindowOpen } from "react-icons/bi";
+// import { BiWindowOpen } from "react-icons/bi";
 // import { IoMdArrowDropright } from "react-icons/fa";
 import logo from "../assets/logo.png";
-import eie from "../../images/eie.png"
+// import eie from "../../images/eie.png"
 import SmallCarousel from "./small_carousel/smallCarousel";
 import { IoMdArrowDropright } from "react-icons/io";
-import arrow from "../assets/right-arrow.png"
+// import arrow from "../assets/right-arrow.png"
+import { Link } from "react-router-dom";
  
 // import NavbarComponent from "./NavbarComponent"
 // import college from "../../images/about.jpg"
@@ -91,7 +92,7 @@ const Header = () => {
                 <div className="sdegrees">
                   <h6>Academic Programmes</h6>
                   <ul>
-                    <li className="capitalise"><IoMdArrowDropright className="inline"/> Undergraduate</li>
+                    <li><IoMdArrowDropright className="inline"/> Undergraduate</li>
                     <li><IoMdArrowDropright className="inline"/>Postgraduate</li>
                     <li><IoMdArrowDropright className="inline"/> Ph.D</li>
                   </ul>
@@ -103,7 +104,9 @@ const Header = () => {
                       {/* <IoMdArrowDropright className="section_icon"/> */}
                     </h6>
                   <ul>
-                    <li><IoMdArrowDropright className="inline"/>CSE</li>
+                    <li><IoMdArrowDropright className="inline"/>
+                    <Link to="/cse">CSE</Link>
+                    </li>
                     <li><IoMdArrowDropright className="inline"/>EEE</li>
                     <li><IoMdArrowDropright className="inline"/>EIE</li>
                     <li><IoMdArrowDropright className="inline"/>Mech</li>

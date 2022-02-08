@@ -1,17 +1,21 @@
 import Home from './components/home/home'
 import './App.css'
-import Footer from './components/footer/footer'
-// import NavbarComponent from './components/head_sec/NavbarComponent'
+import Footer from './components/footer/Footer'
 import Header from './components/head_sec/Header'
+import Cse from './components/departments/Cse'
+
+import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
 
   return (
     <div className="App">
-         {/* include nav header here */}
-         <Header />
-         {/* <NavbarComponent /> */}
-         <Home />
+         {/* <Header /> */}
+         <Routes>
+    <Route path="/"  element={<Home />}/>
+    <Route path="/cse"  element={<Cse />}/> 
+    <Route path="/cse/about"  element={<Home />}/> 
+         </Routes>
          <Footer />
     </div>
   )
