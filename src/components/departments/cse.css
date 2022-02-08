@@ -195,6 +195,9 @@ text-transform: uppercase;
 }
 
 .navbar_for_dept{
+    position:sticky;
+    top: 0;
+    
     display: flex;
     padding: 1rem;
     justify-content:center;
@@ -203,6 +206,7 @@ text-transform: uppercase;
     color: #fff;
     font-size: 24px;
     font-weight: 600;
+    z-index: 11000;
 }
 
 .navbar_for_dept p{
@@ -222,4 +226,65 @@ text-transform: uppercase;
 
 .hod-card{
     transform: translate(-35px, -145px);
+}
+
+/* about part of dept */
+
+.dep-p{
+    margin: 0
+}
+
+.dep-h{
+    text-align: left;
+    font-size: 25px;
+    color: rgb(46, 42, 83);
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.d-read{
+    font-size: 19px;
+    background-color: #656EAF;
+}
+
+.numberse_here{
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+.numbers p{
+    margin: 0px;
+}
+
+.explore{
+    display:flex;
+    /* justify-content:end; */
+    width: 100%;
+    position: relative;
+    padding-left: 60px;
+}
+
+.explore::before{
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: -1px;
+     background-color:brown;
+     width: 50px;
+     height: 1px;
+}
+
+.dept-title{
+    font-size : 60px;
+    text-align: left;
+    color: rgb(19, 24, 83);
+}
+
+/* .sticky_head{
+    position:sticky !important;
+} */
+
+.deptHead{
+
 }

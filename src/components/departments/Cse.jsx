@@ -17,6 +17,9 @@ export default function Cse(){
     return (
         <> 
         <DeptHeader />
+        {/* <About/> */}
+        {/* <Faculty/> */}
+        {/* <Facilities/> */}
         <Routes>
             <Route path="/" element={<DeptLandingPage/>} />
         </Routes>
@@ -24,15 +27,15 @@ export default function Cse(){
             <Route path="/about" element={<About/>} />
         </Routes>
         <Routes>
-            <Route path="/cse/faculty" element={<Faculty/>} />
+            <Route path="/faculty" element={<Faculty/>} />
         </Routes>
         <Routes>
-            <Route path="/cse/facilities" element={<Facilities/>} />
+            <Route path="/facilities" element={<Facilities/>} />
         </Routes>
         <Routes>
-            <Route path="/cse/course-and-curriculum" element={<Courses/>} />
-        </Routes>
-        {/* <Footer/> */}
+            <Route path="/course-and-curriculum" element={<Courses/>} />
+        </Routes> 
+        <Footer/>
         </>
     )
 }

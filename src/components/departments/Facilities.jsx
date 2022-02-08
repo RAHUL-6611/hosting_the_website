@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Facilities = () => {
-  return <div>Facilities</div>;
+  return <div >
+
+
+         </div>;
 };
 
 export default Facilities;
