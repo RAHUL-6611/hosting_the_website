@@ -1,4 +1,4 @@
-import Home from './components/home/home'
+import Home from './components/home/Home'
 import './App.css'
 // import Footer from './components/footer/Footer'
 import Header from './components/head_sec/Header'
