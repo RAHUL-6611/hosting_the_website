@@ -1,0 +1,19 @@
+.notices-msg{
+    font-size: 19px;
+}
+
+.not-text{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid darkgray;
+}
+
+.not-ol{
+    margin : 10px 0px;
+}
+
+.not-li{
+    background-color: rgb(201, 186, 226);
+    margin: 3px 0px;
+    padding: 5px;
+}

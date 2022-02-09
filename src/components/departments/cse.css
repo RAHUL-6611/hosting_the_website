@@ -9,6 +9,16 @@
     height: 80px;
 }
 
+.big-cont p {
+   margin: 10px 10px;
+}
+
+.btn-read{
+    font-size: 18px;
+    background-color: #656EAF;
+    color: white;
+}
+
 .small{
     height: 500px;
     overflow-y: scroll;
@@ -280,15 +290,22 @@ text-transform: uppercase;
 }
 
 .dept-title{
-    font-size : 60px;
+    font-size : 40px;
     text-align: left;
     color: rgb(19, 24, 83);
 }
 
-/* .sticky_head{
-    position:sticky !important;
-} */
+/* vision  */
 
-.deptHead{
-
+.vision-content{
+    background: #f1ecec6b;
+    margin: 0px 95px 40px 95px;
+    color: #13123e;
+    padding: 37px;
+    font-size: 19px;
+    box-shadow: 0 0 18px 1px #b9b2b254, 0 0 2px 0px #000000;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 21px;
 }

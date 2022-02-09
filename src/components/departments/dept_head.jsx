@@ -19,7 +19,6 @@ export default function DeptHeader()
                         <BiSearchAlt className="search_icon"/>
                     </div>
                 </div>
-                {/* image_for_dept */}
                 <div className="imgsec">
                     <img src={cse} alt="cse"/>
                 </div>
