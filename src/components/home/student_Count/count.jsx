@@ -1,7 +1,7 @@
 import React from "react";
 
-import { HiOutlineAcademicCap, HiAcademicCap } from '../../../../node_modules/react-icons/hi'
-import { MdCastForEducation } from '../../../../node_modules/react-icons/md'
+import { HiOutlineAcademicCap, HiAcademicCap } from 'react-icons/hi'
+import { MdCastForEducation } from 'react-icons/md'
 
 import './style.css'
 
