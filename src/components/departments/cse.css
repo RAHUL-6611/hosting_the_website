@@ -32,8 +32,12 @@
 
 .imgsec{
     width: 100%;
-    height: 590px;
+    height: 390px;
     overflow: hidden;
+}
+
+image_for_dept{
+    height: 200px !important;
 }
 
 .imgsec img{
@@ -225,7 +229,7 @@ text-transform: uppercase;
 }
 
 .hod-card{
-    transform: translate(-35px, -145px);
+    transform: translate(-35px, -335px);
 }
 
 /* about part of dept */
