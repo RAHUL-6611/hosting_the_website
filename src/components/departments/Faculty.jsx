@@ -93,6 +93,7 @@ export default function Faculty(){
     let image = facultyData[state].img
 
     return(
+        <>
         <div className='faculty grid grid-cols-7 py-20'>
             <div className="big col-span-4">
                 <div className="fac-info flex">
@@ -122,8 +123,8 @@ export default function Faculty(){
                              </div>
                          </div>
                      )
-                 })   
-             }
+                    })   
+                }
              {
                  facultyData.map( (e, index) =>{
                      return (
@@ -137,9 +138,13 @@ export default function Faculty(){
                              </div>
                          </div>
                      )
-                 })   
-             }
+                    })   
+                }
             </div>
         </div>
+        {/* <div className="grid grid-cols-3">
+                abcd
+        </div> */}
+                </>
     )
 }
