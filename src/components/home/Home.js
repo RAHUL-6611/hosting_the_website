@@ -15,10 +15,8 @@ export default function Home() {
     return (
         <div>
             <Header/>
-
            <AboutComp />
            <NewsPTU />
-        
            <CarouselHold />
            <StudentCount />
            <CampusLifeOne />
