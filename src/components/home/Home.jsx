@@ -14,7 +14,7 @@ export default function Home() {
            <AboutComp />
            <NewsPTU />
            {/* <CarouselHold /> */}
-           <StudentCount />
+           {/* <StudentCount /> */}
            <CampusLifeOne />
         </div>
     )
