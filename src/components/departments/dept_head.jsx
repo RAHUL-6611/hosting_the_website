@@ -1,6 +1,6 @@
 import React from "react";
 
-import cse from "../../images/cse.jpg"
+import cse from "../../images/cse_depart.jpg"
 import { BiSearchAlt } from "react-icons/bi";
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -22,20 +22,23 @@ export default function DeptHeader()
                 <div className="imgsec">
                     <img src={cse} alt="cse"/>
                 </div>
+
                 <div>
-                    <HodCard/>
+                    {/* <HodCard/> */}
                 </div>
             </div>
 
 
             <div className="navbar_for_dept">
             <Link to="/cse/faculty">
-            <p>FACULTY  <AiFillCaretDown/></p>
+            <p>FACULTY </p>
             </Link>
-            <Link to="/cse/courses-and-curriculum">
-            <p>SYLLABUS <AiFillCaretDown/></p>
+            <Link to="/cse/courses">
+            <p>SYLLABUS </p>
             </Link>
+            <Link to="/cse/research">
             <p>RESEARCH </p>
+            </Link>
             <Link to="/cse/facilities">
             <p>FACILITIES </p>
             </Link>

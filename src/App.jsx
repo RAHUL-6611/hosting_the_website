@@ -1,6 +1,6 @@
 import Home from './components/home/home'
 import './App.css'
-import Footer from './components/footer/Footer'
+// import Footer from './components/footer/Footer'
 import Header from './components/head_sec/Header'
 import Cse from './components/departments/Cse'
 

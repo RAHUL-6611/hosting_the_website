@@ -45,11 +45,11 @@ const About = () => {
           <br />
           <h5 className="dep-h">About the Department</h5>
           <p className="dep-p">
-          The Department of Economics was established in 1986. Over the last thirty two years, the Department has carved out a niche in economics education map of India. The Department discharges three functions, namely teaching, research and extension. So far, it has produced a large number of post-graduates, as well as M.Phil. and Ph.D. scholars who are placed in some of the premier institutions in the country and elsewhere. The Department has also emerged as a popular centre for training officials from government and corporate sectors, especially in the area of econometrics.
+          The Department aims at providing high quality training to students through the latest in computer technology. In order to maintain the standard of education, the department constantly upgrades the academic syllabi so as to keep the students well trained to deal with changing trends in the field of Computer Science and Engineering. The Department offers B.Tech. (CSE), M.Tech. (Data Science), M.Tech. (Information Security), MCA and Ph.D.(including QIP and NDF schemes) programme. The Department places emphasis on Component Technology, Computing, Data Sciences, Information Security, High Speed Networks, Wireless and Mobile Networks, Agile Programming Methodologies, Language Technologies, Software Architecture, Software metrics, and several other recent topics. The Choice Based Credit System is followed for PG program which enables the selection of subjects by students themselves and confers grades relative to the peer's performance. The curriculum of all courses are designed in such a way so as to enable students to carry out major and minor projects in leading industries/institutions, besides their regular classes and seminars. The students of the department have done projects in major companies like TCS, HCL, RAMCO, CTS, Nature Soft, NAL, ISRO, NLC, IGCAR etc. The Department regularly organizes a series of lectures by academicians and professionals of the highest repute, which lay stress on the latest innovative technologies in the field of Computer Science and Engineering and Information Technology.
           </p>
           <div className="d-btn-hold text-left">
              <button className="d-read px-5 py-2 text-white ">
-               Read more
+              Download Brochure
              </button>
           </div>
         </div>

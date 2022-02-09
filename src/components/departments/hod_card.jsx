@@ -11,11 +11,13 @@ export default function HodCard (){
               <img src={img} alt="" />
           </div>
           <div className="parts">
-              <h4>Dr. G. Zayaraz</h4>
+              <h4 className="font-bold font-2xl">Dr. G. Zayaraz</h4>
               <h6>Hod cse department</h6>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque a magnam nam tempora cum iusto
-                   cupiditate non. Provident corporis explicabo distinctio maxime impedit debitis ad, rerum earum dolorem non
-                    placeat?</p>
+              {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque a magnam nam tempora cum iusto
+                  ?</p> */}
+                  <button>
+                      Read More
+                  </button>
           </div>
         </div>
             </div>
