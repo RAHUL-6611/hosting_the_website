@@ -10,6 +10,8 @@ import Courses from "./Courses"
 import Faculty from "./Faculty"
 import DeptLandingPage from "./DeptLandingPage"
 import Facilities from "./Facilities"
+import Research from "./research"
+import Notices from "../departments/notice"
 import Footer from "../footer/Footer"
 
 export default function Cse(){
@@ -30,7 +32,10 @@ export default function Cse(){
             <Route path="/faculty" element={<Courses/>} />
         </Routes>
         <Routes>
-            <Route path="/facilities" element={<Facilities/>} />
+            <Route path="/notices" element={<Notices />} />
+        </Routes>
+        <Routes>
+            <Route path="/facilities" element={<Research />} />
         </Routes>
         <Routes>
             <Route path="/course-and-curriculum" element={<Courses/>} />

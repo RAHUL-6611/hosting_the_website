@@ -35,7 +35,9 @@ export default function DeptHeader()
             <Link to="/cse/facilities">
             <p>FACILITIES </p>
             </Link>
+            <Link to ="/cse/notices">
             <p>NOTICES </p>
+            </Link>
             <Link to="/cse/about">
             <p>ABOUT</p>
             </Link>
