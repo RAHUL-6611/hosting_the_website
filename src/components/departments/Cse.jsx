@@ -13,7 +13,7 @@ import Notices from "./Notices"
 import Research from "./research"
 // import Notices from "../departments/notice"
 // >>>>>>> c5730b8a49a608998323a46828d2d66c52e9228e
-import Footer from "../footer/Footer"
+// import Footer from "../footer/Footer"
 
 export default function Cse(){
 
@@ -45,7 +45,7 @@ export default function Cse(){
         <Routes>
             <Route path="/research" element={<Research/>} />
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
         </>
     )
 }
