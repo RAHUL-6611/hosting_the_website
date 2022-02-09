@@ -5,7 +5,7 @@ export default function CarouselHold(){
     return (
         <>
         <div className="div">
-           <h1 id="">Departments</h1>
+           <h1>Departments</h1>
             <div>
                <Carousel />
             </div>

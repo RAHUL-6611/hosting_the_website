@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselHold from "./Carousel_hold";
+// import CarouselHold from "./CarouselHold";
 import StudentCount from "./student_Count/Count";
 import CampusLifeOne from "./campus_life/Campus_life1";
 import AboutComp from "./AboutPTU/about";
@@ -13,7 +13,7 @@ export default function Home() {
             <Header/>
            <AboutComp />
            <NewsPTU />
-           <CarouselHold />
+           {/* <CarouselHold /> */}
            <StudentCount />
            <CampusLifeOne />
         </div>
