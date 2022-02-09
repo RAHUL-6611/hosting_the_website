@@ -15,12 +15,10 @@ export default function Home() {
     return (
         <div>
             <Header/>
-           {/* <CardHold /> */}
-           {/* <SmallCarousel /> */}
+
            <AboutComp />
            <NewsPTU />
-           {/* <AboutUs /> */}
-           {/* <NewsBlock /> */}
+        
            <CarouselHold />
            <StudentCount />
            <CampusLifeOne />
