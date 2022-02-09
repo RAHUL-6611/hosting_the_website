@@ -93,7 +93,7 @@ export default function Faculty(){
     let image = facultyData[state].img
 
     return(
-        <div className='faculty grid grid-cols-7 my-20 py-20'>
+        <div className='faculty grid grid-cols-7 py-20'>
             <div className="big col-span-4">
                 <div className="fac-info flex">
                    <div className="big-img">
@@ -109,6 +109,21 @@ export default function Faculty(){
                 <div className='fac-msg'>{msg}</div>
             </div>
             <div className="small col-span-3 mx-10">
+             {
+                 facultyData.map( (e, index) =>{
+                     return (
+                         <div className="small-cards flex justify-left px-10 py-5" onClick={()=>{setState(index)}}>
+                             <div className="parts1">
+                                 <img  className="faculty-img" src={e.img} alt="" />
+                             </div>
+                             <div className="parts2 px-5">
+                                 <h5 className='text-bold'>{e.name}</h5>
+                                 <h6>{e.qualification}</h6>
+                             </div>
+                         </div>
+                     )
+                 })   
+             }
              {
                  facultyData.map( (e, index) =>{
                      return (

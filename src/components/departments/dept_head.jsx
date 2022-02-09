@@ -4,6 +4,7 @@ import cse from "../../images/cse.jpg"
 import { BiSearchAlt } from "react-icons/bi";
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import HodCard from "./hod_card";
 export default function DeptHeader() 
 {
     return(
@@ -21,6 +22,9 @@ export default function DeptHeader()
                 <div className="imgsec">
                     <img src={cse} alt="cse" />
                 </div>
+                <div>
+                    <HodCard/>
+                </div>
             </div>
 
 
@@ -35,7 +39,9 @@ export default function DeptHeader()
             <Link to="/cse/facilities">
             <p>FACILITIES </p>
             </Link>
+            <Link to="/cse/notices">
             <p>NOTICES </p>
+            </Link>
             <Link to="/cse/about">
             <p>ABOUT</p>
             </Link>

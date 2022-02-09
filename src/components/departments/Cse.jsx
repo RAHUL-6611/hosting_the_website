@@ -10,6 +10,7 @@ import Courses from "./Courses"
 import Faculty from "./Faculty"
 import DeptLandingPage from "./DeptLandingPage"
 import Facilities from "./Facilities"
+import Notices from "./Notices"
 import Footer from "../footer/Footer"
 
 export default function Cse(){
@@ -31,6 +32,9 @@ export default function Cse(){
         </Routes>
         <Routes>
             <Route path="/facilities" element={<Facilities/>} />
+        </Routes>
+        <Routes>
+            <Route path="/notices" element={<Notices/>} />
         </Routes>
         <Routes>
             <Route path="/course-and-curriculum" element={<Courses/>} />
